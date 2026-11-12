@@ -1,0 +1,53 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ---- Datasets downloaded by the notebook (torchvision MNIST -> ./data) ----
+data/
+MNIST/
+*.gz
+
+# ---- Model checkpoints (none are tracked in this repo) ----
+*.pt
+*.pth
+
+# ---- LaTeX build artefacts (keep main.tex, references.bib, figures/ and the final PDF) ----
+report/*.aux
+report/*.log
+report/*.out
+report/*.bbl
+report/*.blg
+report/*.fls
+report/*.fdb_latexmk
+report/*.synctex.gz
+report/*.toc
+
+# ---- Local environment / secrets ----
+.env
+.env.*
+*.key
+
+# ---- Editor / OS files ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~

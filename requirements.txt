@@ -1,0 +1,14 @@
+# Python dependencies for notebooks/GAN_reimplementation.ipynb
+# (derived from the notebook's actual imports; versions intentionally unpinned)
+#
+# The stored notebook outputs were produced on Google Colab (T4 GPU) with PyTorch 2.11.0+cu130.
+# For GPU training, install the CUDA build of PyTorch that matches your system first
+# (see https://pytorch.org/get-started/locally/), then install the rest.
+
+torch
+torchvision
+numpy
+pandas
+matplotlib
+ipython
+jupyter
